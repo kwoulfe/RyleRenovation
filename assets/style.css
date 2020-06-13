@@ -1,0 +1,368 @@
+body, html {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+.hpot {
+    display: none;
+  }
+
+/* NAVBAR  MAIN*/
+
+nav {
+    transition: background 0.4s ease-in-out;
+}
+
+.fixed-top {
+    background: url("../images/headerColorBlack.png") repeat scroll 0 0 transparent;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+
+.nav-item {
+    text-align: center;
+}
+
+.nav-link {
+    color: white;
+    font-family: bookmania, serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.15em;
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+}
+
+.nav-link:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+button:focus {
+    outline: 0;
+}
+
+.logo {
+    max-height: 75px;
+}
+
+.is-hidden {
+    opacity: 0;
+    transition: transform 0.4s, opacity 0.2s;
+}
+
+.navbar-hide {
+    pointer-events: none;
+    opacity: 0;
+}
+
+/* NAVBAR ABOUT */
+
+.static-top {
+    background: url("../images/headerColorBlack.png") repeat scroll 0 0 transparent;
+    /* position: fixed; */
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+
+/* CAROUSEL */
+
+.carousel-item {
+    height: 100vh;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.carousel-control-down {
+    position: absolute;
+    bottom: 4em;;
+    z-index: 1;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 100%;
+    opacity: .5;
+    transition: opacity .15s ease;
+}
+
+.down-arrow {
+    max-width: 50PX;
+}
+
+/* JUMBOTRON MAIN*/
+
+#main {
+    vertical-align: middle;
+}
+
+.jumbotron {
+    height: 20em;
+    background-color: white;
+    margin-bottom: 0;
+}
+
+#header {
+    font-family: bookmania, serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 5.5rem;
+}
+
+.display-4 {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    /* color: #e28327; */
+    color: black;
+}
+
+.lead {
+    font-family: alternate-gothic-atf, sans-serif;
+    font-style: normal;
+    text-align: center;
+    color: black;
+}
+
+hr.style14 { 
+    border: 0; 
+    height: 1px; 
+    background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+    background-image: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+    background-image: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+    background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0); 
+  }
+
+/* JUMBOTRON ABOUT */
+
+.vertical-center {
+    display: flex;
+    align-items: center;
+}
+
+#jumbotron-about {
+    height: 15em;
+}
+
+/* HOME PAGE */
+
+.services {
+    text-align: center;
+    font-family: bookmania, serif;
+    font-style: normal;
+    font-weight: 300;
+}
+
+.list {
+    font-family: alternate-gothic-atf, sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    color: black;
+    text-align: center;
+}
+
+/* CARDS */
+
+.card {
+    border: 0;
+    border-radius: 0;
+    text-align: center;
+    font-family: 'Lora', serif;
+}
+
+.card-body {
+    background-color: black;
+    color: white;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 25vw;
+    object-fit: cover;
+}
+
+/* CONTACT PAGE */
+
+.phone {
+    color: #e28327
+}
+
+.phone:hover {
+    color: #e28327;
+}
+
+.contact-font {
+    font-family: 'Lora', serif;
+    color: white;
+}
+
+.form-control {
+    border-radius: 0;
+    background-clip: unset;
+    color: black;
+}
+
+.input-group-text {
+    border-radius: 0;
+}
+
+form {
+    font-family: 'Lora', serif;
+}
+
+input[type='text'] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    /* appearance: none; */
+}
+  
+input[type='email'] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    /* appearance: none; */
+}
+  
+input[type='tel'] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    /* appearance: none; */
+}
+
+textarea {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    /* appearance: none; */
+}
+
+#send-button {
+    background-color: white;
+    color: black;
+    border: 0;
+    border-radius: 0;
+}
+
+iframe {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.iframe-container{
+    /* position: relative; */
+    width: 100%;
+    padding-bottom: 56.25%; /* Ratio 16:9 ( 100%/16*9 = 56.25% ) */
+}
+.iframe-container > *{
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: 0;
+    /* padding: 0; */
+    height: 100%;
+    width: 100%;
+}
+
+/* FOOTER */
+
+.page-footer {
+    padding: 1rem 2rem 3rem 2rem;
+    font-family: bookmania, serif;
+    font-style: normal;
+    font-weight: 300;
+    text-align: center;
+    font-size: 25px
+}
+
+.page-footer i {
+    color: black;
+    padding: 0 10px 0 10px;
+}
+
+.align-self-center {
+    padding: 10px 0 10px 0;
+}
+
+/* LIGHTBOX */
+
+.thumbnail {
+    padding-bottom: 25px;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 1023px) {
+    .carousel-item {
+        height: 93vh;
+    }
+    form {
+        text-align: center;
+    }
+    .contact-font {
+        text-align: center;
+    }
+  }
+
+  @media screen and (max-width: 991px) {
+    #header {
+        font-size: 4.5rem;
+    }
+  }
+
+@media screen and (max-width: 768px) {
+    #jumbotron-about {
+        height: 10em;
+    }
+    #header {
+        font-size: 3rem;
+    }
+  }
+
+@media screen and (max-width: 767px) {
+    .card-img-top {
+        height: 60vw;
+    }
+  }
+
+@media screen and (max-width: 576px) {
+    .carousel-item {
+        height: 91vh;
+    }
+    .display-4 {
+        font-size: 35px;
+    }
+    .jumbotron {
+        margin-bottom: 0;
+        height: 18em;
+    }
+    .page-footer {
+        font-size: 20px;
+        padding: 0 5px 2rem 5px;
+    }
+    #jumbotron-about {
+        height: 8em;
+        margin-bottom: 1rem;
+    }
+    #header {
+        font-size: 3rem;
+    }
+  }
+
+  @media screen and (max-width: 375px) {
+    .jumbotron {
+        height: 20em;
+    }
+  }
