@@ -198,15 +198,16 @@ hr.style14 {
 /* CONTACT PAGE */
 
 .phone {
-    color: #e28327
+    color: #6bbe1b
 }
 
 .phone:hover {
-    color: #e28327;
+    color: #6bbe1b;
 }
 
 .contact-font {
-    font-family: 'Lora', serif;
+    font-family: alternate-gothic-atf, sans-serif;
+    font-style: normal;
     color: white;
 }
 
@@ -221,7 +222,8 @@ hr.style14 {
 }
 
 form {
-    font-family: 'Lora', serif;
+    font-family: alternate-gothic-atf, sans-serif;
+    font-style: normal;
 }
 
 input[type='text'] {
