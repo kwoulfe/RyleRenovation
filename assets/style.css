@@ -123,7 +123,9 @@ button:focus {
 }
 
 .display-4 {
-    font-family: 'Montserrat', sans-serif;
+    font-family: bookmania, serif;
+    font-style: normal;
+    font-weight: 300;
     text-align: center;
     /* color: #e28327; */
     color: black;
